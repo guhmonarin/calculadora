@@ -1,4 +1,4 @@
-
+onkeydown="detecta(event)"
 
 
 function insert(numero)
