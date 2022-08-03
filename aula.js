@@ -9,7 +9,7 @@ function insert(numero)
 function detecta(teste)
 {
     var tecla = teste.key;
-    if(tecla >= 0 && tecla <= 9 )
+    if(tecla >= 0 && tecla <= 9 || tecla == '.' )
     {
         var num = document.getElementById('resultado').innerHTML;
         document.getElementById('resultado').innerHTML = num + tecla;
